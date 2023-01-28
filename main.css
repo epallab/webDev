@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #141414;
+}
+#current-photo {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.sample-photo {
+  width: 100px;
+  height: 100px;
+  transition: 0.3s;
+}
+.sample-photo:hover {
+  width: 110px;
+  height: 110px;
+  border: 2px solid white;
+  margin: 3px;
+}
+
+img {
+  border-radius: 10px;
+  cursor: pointer;
+}
